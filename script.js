@@ -11,6 +11,9 @@ btn.addEventListener('click',function(){
    let y = Math.random()*100
    let rot =  Math.random()*360
    let scl =  Math.random()*2
+     let c1 = Math.floor(Math.random()*256);
+    let c2 = Math.floor(Math.random()*256);
+    let c3 = Math.floor(Math.random()*256);
   
    h1.innerHTML=arr[ran]
    h1.style.color = 'white'
@@ -21,6 +24,8 @@ btn.addEventListener('click',function(){
    h1.style.rotate = rot+'deg'
    h1.style.fontSize = 40+'px'
    h1.style.scale = scl
+   h1.style.color = `rgb(${c1},${c2},${c3})`
+   
 
 
 
